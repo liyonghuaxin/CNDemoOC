@@ -1,3 +1,3 @@
-target 'CNSummaryDemo' do
-pod 'AFNetworking'
+target 'CNDemoOC' do
+    pod 'AFNetworking'
 end
