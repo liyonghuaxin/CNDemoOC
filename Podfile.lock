@@ -14,13 +14,28 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Masonry (1.1.0)
+  - ReactiveCocoa (2.1):
+    - ReactiveCocoa/Core (= 2.1)
+    - ReactiveCocoa/no-arc (= 2.1)
+  - ReactiveCocoa/Core (2.1):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.1)
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - Masonry
+  - ReactiveCocoa (= 2.1.0)
+  - YTKNetwork
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  ReactiveCocoa: 0e8cc4ebebb10e3e0d08361172cb7a4f4d3cba34
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
 
-PODFILE CHECKSUM: fc01cc7907107a6a2eb36a0e21bf3f9a6c6ef5cb
+PODFILE CHECKSUM: 5d28a9ce4d64f6f973a2f7d0454c728a400c3a9e
 
-COCOAPODS: 1.2.1
+COCOAPODS: 1.4.0

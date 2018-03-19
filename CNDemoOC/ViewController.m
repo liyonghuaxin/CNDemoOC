@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "NetworkVC.h"
 #import "CNAnimation.h"
+#import "SocketTest.h"
+#import "RACTest.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>{
     NSArray *dataArray;
@@ -21,7 +23,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    dataArray = @[@"网络", @"动画"];
+    dataArray = @[@"网络", @"动画", @"Socket编程", @"ReactivaCocoa"];
 }
 
 #pragma mark UITableViewDataSource
@@ -35,6 +37,16 @@
         case 1:{
             CNAnimation  *animation = [[CNAnimation alloc] init];
             [self.navigationController pushViewController:animation animated:YES];
+            break;
+        }
+        case 2:{
+            SocketTest  *socket = [[SocketTest alloc] init];
+            [self.navigationController pushViewController:socket animated:YES];
+            break;
+        }
+        case 3:{
+            RACTest  *rac = [[RACTest alloc] init];
+            [self.navigationController pushViewController:rac animated:YES];
             break;
         }
         default:

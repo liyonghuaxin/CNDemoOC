@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		120C8B9F4C328DA18F6479E6 /* libPods-CNDemoOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F090D5B44E1D22CC6EB980C0 /* libPods-CNDemoOC.a */; };
 		1817DFF52046A53C00A12164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817DFF42046A53C00A12164 /* AppDelegate.m */; };
 		1817DFF82046A53C00A12164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817DFF72046A53C00A12164 /* ViewController.m */; };
 		1817DFFB2046A53C00A12164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1817DFF92046A53C00A12164 /* Main.storyboard */; };
@@ -55,7 +56,12 @@
 		185F3425204E1A5800B3B776 /* chooser-button-input-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185F3412204E1A5800B3B776 /* chooser-button-input-highlighted@2x.png */; };
 		185F3426204E1A5800B3B776 /* chooser-button-tab-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185F3413204E1A5800B3B776 /* chooser-button-tab-highlighted@2x.png */; };
 		185F3427204E1A5800B3B776 /* chooser-button-input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185F3414204E1A5800B3B776 /* chooser-button-input@2x.png */; };
-		8198CC80C3CB9320780064DB /* libPods-CNDemoOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 109FFB152C115286472CF1FF /* libPods-CNDemoOC.a */; };
+		18973F8B205A693500652FEA /* LMJBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18973F85205A693400652FEA /* LMJBaseResponse.m */; };
+		18973F8C205A693500652FEA /* LMJBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18973F86205A693400652FEA /* LMJBaseRequest.m */; };
+		18973F8D205A693500652FEA /* LMJRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18973F89205A693400652FEA /* LMJRequestManager.m */; };
+		18A5D11E205F5123002E5811 /* RACTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5D11D205F5123002E5811 /* RACTest.m */; };
+		18A5D121205F53E0002E5811 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5D120205F53E0002E5811 /* SubView.m */; };
+		18DBBBBD204F94950088A59E /* SocketTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBBBBC204F94950088A59E /* SocketTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,7 +82,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		109FFB152C115286472CF1FF /* libPods-CNDemoOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CNDemoOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1357369D3EF1EE71480306FF /* Pods-CNDemoOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNDemoOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNDemoOC/Pods-CNDemoOC.debug.xcconfig"; sourceTree = "<group>"; };
 		1817DFF02046A53C00A12164 /* CNDemoOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNDemoOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1817DFF32046A53C00A12164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -154,9 +159,22 @@
 		185F3412204E1A5800B3B776 /* chooser-button-input-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-input-highlighted@2x.png"; sourceTree = "<group>"; };
 		185F3413204E1A5800B3B776 /* chooser-button-tab-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-tab-highlighted@2x.png"; sourceTree = "<group>"; };
 		185F3414204E1A5800B3B776 /* chooser-button-input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-input@2x.png"; sourceTree = "<group>"; };
+		18973F85205A693400652FEA /* LMJBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseResponse.m; sourceTree = "<group>"; };
+		18973F86205A693400652FEA /* LMJBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseRequest.m; sourceTree = "<group>"; };
+		18973F87205A693400652FEA /* LMJRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRequestManager.h; sourceTree = "<group>"; };
+		18973F88205A693400652FEA /* LMJBaseRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaseRequest.h; sourceTree = "<group>"; };
+		18973F89205A693400652FEA /* LMJRequestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJRequestManager.m; sourceTree = "<group>"; };
+		18973F8A205A693400652FEA /* LMJBaseResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJBaseResponse.h; sourceTree = "<group>"; };
+		18A5D11C205F5123002E5811 /* RACTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACTest.h; sourceTree = "<group>"; };
+		18A5D11D205F5123002E5811 /* RACTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTest.m; sourceTree = "<group>"; };
+		18A5D11F205F53E0002E5811 /* SubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubView.h; sourceTree = "<group>"; };
+		18A5D120205F53E0002E5811 /* SubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
+		18DBBBBB204F94950088A59E /* SocketTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketTest.h; sourceTree = "<group>"; };
+		18DBBBBC204F94950088A59E /* SocketTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketTest.m; sourceTree = "<group>"; };
 		32BF752FABD8892B049F69A9 /* Pods-CNDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNDemoOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-CNSummaryDemo/Pods-CNDemoOC.release.xcconfig"; sourceTree = "<group>"; };
 		710F1557094CBC27899A7EBE /* Pods-CNDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNDemoOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-CNDemoOC/Pods-CNDemoOC.release.xcconfig"; sourceTree = "<group>"; };
 		7550818267B64D350C0A697B /* Pods-CNDemoOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNDemoOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNSummaryDemo/Pods-CNDemoOC.debug.xcconfig"; sourceTree = "<group>"; };
+		F090D5B44E1D22CC6EB980C0 /* libPods-CNDemoOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CNDemoOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,7 +182,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8198CC80C3CB9320780064DB /* libPods-CNDemoOC.a in Frameworks */,
+				120C8B9F4C328DA18F6479E6 /* libPods-CNDemoOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,6 +228,7 @@
 		1817DFF22046A53C00A12164 /* CNDemoOC */ = {
 			isa = PBXGroup;
 			children = (
+				18A5D11B205F50FC002E5811 /* ReactiveCocoa */,
 				185F337B204CDB2D00B3B776 /* Animation */,
 				1817E0252046BC9800A12164 /* Network */,
 				1817DFF32046A53C00A12164 /* AppDelegate.h */,
@@ -247,8 +266,11 @@
 		1817E0252046BC9800A12164 /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				18973F7B205A687000652FEA /* LMJNetwork */,
 				1817E0262046BCD100A12164 /* NetworkVC.h */,
 				1817E0272046BCD100A12164 /* NetworkVC.m */,
+				18DBBBBB204F94950088A59E /* SocketTest.h */,
+				18DBBBBC204F94950088A59E /* SocketTest.m */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -374,6 +396,30 @@
 			path = AnimationImage;
 			sourceTree = "<group>";
 		};
+		18973F7B205A687000652FEA /* LMJNetwork */ = {
+			isa = PBXGroup;
+			children = (
+				18973F88205A693400652FEA /* LMJBaseRequest.h */,
+				18973F86205A693400652FEA /* LMJBaseRequest.m */,
+				18973F8A205A693400652FEA /* LMJBaseResponse.h */,
+				18973F85205A693400652FEA /* LMJBaseResponse.m */,
+				18973F87205A693400652FEA /* LMJRequestManager.h */,
+				18973F89205A693400652FEA /* LMJRequestManager.m */,
+			);
+			path = LMJNetwork;
+			sourceTree = "<group>";
+		};
+		18A5D11B205F50FC002E5811 /* ReactiveCocoa */ = {
+			isa = PBXGroup;
+			children = (
+				18A5D11C205F5123002E5811 /* RACTest.h */,
+				18A5D11D205F5123002E5811 /* RACTest.m */,
+				18A5D11F205F53E0002E5811 /* SubView.h */,
+				18A5D120205F53E0002E5811 /* SubView.m */,
+			);
+			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
 		267956EB9860D4596D1005EF /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -388,7 +434,7 @@
 		C0CF0AB9C113695B995F46E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				109FFB152C115286472CF1FF /* libPods-CNDemoOC.a */,
+				F090D5B44E1D22CC6EB980C0 /* libPods-CNDemoOC.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -553,9 +599,20 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-CNDemoOC/Pods-CNDemoOC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -568,13 +625,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CNDemoOC-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		AF61E2BB2BCA1A0AB162E67F /* [CP] Copy Pods Resources */ = {
@@ -601,9 +661,13 @@
 			files = (
 				185F33D8204D434F00B3B776 /* KeyFrameAnimationController.m in Sources */,
 				185F338D204D24B600B3B776 /* TitleButton.m in Sources */,
+				18973F8C205A693500652FEA /* LMJBaseRequest.m in Sources */,
+				18973F8B205A693500652FEA /* LMJBaseResponse.m in Sources */,
 				185F33D5204D3F2600B3B776 /* BaseViewController.m in Sources */,
 				185F3394204D25C300B3B776 /* BaseAnimationController.m in Sources */,
+				18A5D11E205F5123002E5811 /* RACTest.m in Sources */,
 				1817DFF82046A53C00A12164 /* ViewController.m in Sources */,
+				18A5D121205F53E0002E5811 /* SubView.m in Sources */,
 				185F33E1204D50DF00B3B776 /* AffineTransformController.m in Sources */,
 				185F337E204CDCE000B3B776 /* CNAnimation.m in Sources */,
 				1817E0282046BCD100A12164 /* NetworkVC.m in Sources */,
@@ -615,11 +679,13 @@
 				1817DFF52046A53C00A12164 /* AppDelegate.m in Sources */,
 				185F33F2204E189100B3B776 /* DWBubbleMenuButton.m in Sources */,
 				185F33DE204D44FD00B3B776 /* TransitionAnimationController.m in Sources */,
+				18DBBBBD204F94950088A59E /* SocketTest.m in Sources */,
 				185F33ED204E187400B3B776 /* DCPathItemButton.m in Sources */,
 				185F33DB204D443800B3B776 /* GroupAnimationController.m in Sources */,
 				185F33EE204E187400B3B776 /* DCPathCenterButton.m in Sources */,
 				185F33F8204E189D00B3B776 /* MCFireworksButton.m in Sources */,
 				185F3382204CEA2800B3B776 /* CallAnimationMethod.m in Sources */,
+				18973F8D205A693500652FEA /* LMJRequestManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
