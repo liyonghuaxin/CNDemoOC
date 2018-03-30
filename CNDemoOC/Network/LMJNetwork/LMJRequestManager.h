@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "LMJBaseResponse.h"
-#import <AFNetworking.h>
+#import <AFNetworking/AFNetworking.h>
 
 typedef enum : NSInteger {
     LMJRequestManagerStatusCodeCustomDemo = -10000,

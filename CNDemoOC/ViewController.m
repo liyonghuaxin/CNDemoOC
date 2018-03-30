@@ -10,7 +10,7 @@
 #import "NetworkVC.h"
 #import "CNAnimation.h"
 #import "SocketTest.h"
-#import "RACTest.h"
+#import "RACList.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>{
     NSArray *dataArray;
@@ -45,7 +45,7 @@
             break;
         }
         case 3:{
-            RACTest  *rac = [[RACTest alloc] init];
+            RACList *rac = [[RACList alloc] init];
             [self.navigationController pushViewController:rac animated:YES];
             break;
         }

@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		120C8B9F4C328DA18F6479E6 /* libPods-CNDemoOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F090D5B44E1D22CC6EB980C0 /* libPods-CNDemoOC.a */; };
+		180801E62061199600638F59 /* FlagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 180801E52061199600638F59 /* FlagItem.m */; };
+		180801E82061F31100638F59 /* flags.plist in Resources */ = {isa = PBXBuildFile; fileRef = 180801E72061F31100638F59 /* flags.plist */; };
 		1817DFF52046A53C00A12164 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817DFF42046A53C00A12164 /* AppDelegate.m */; };
 		1817DFF82046A53C00A12164 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817DFF72046A53C00A12164 /* ViewController.m */; };
 		1817DFFB2046A53C00A12164 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1817DFF92046A53C00A12164 /* Main.storyboard */; };
@@ -17,6 +18,9 @@
 		1817E00D2046A53C00A12164 /* CNDemoOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817E00C2046A53C00A12164 /* CNDemoOCTests.m */; };
 		1817E0182046A53D00A12164 /* CNDemoOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817E0172046A53D00A12164 /* CNDemoOCUITests.m */; };
 		1817E0282046BCD100A12164 /* NetworkVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 1817E0272046BCD100A12164 /* NetworkVC.m */; };
+		181D10A3206CCAB5005E4B85 /* CaculatorVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D10A1206CCAB5005E4B85 /* CaculatorVC.m */; };
+		181D10A8206DCDFE005E4B85 /* CaculatorFP.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D10A7206DCDFE005E4B85 /* CaculatorFP.m */; };
+		181D10B8206E2788005E4B85 /* RACCommonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 181D10B7206E2788005E4B85 /* RACCommonClass.m */; };
 		185F337E204CDCE000B3B776 /* CNAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F337D204CDCE000B3B776 /* CNAnimation.m */; };
 		185F3382204CEA2800B3B776 /* CallAnimationMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F3381204CEA2800B3B776 /* CallAnimationMethod.m */; };
 		185F338D204D24B600B3B776 /* TitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 185F338B204D24B600B3B776 /* TitleButton.m */; };
@@ -56,12 +60,23 @@
 		185F3425204E1A5800B3B776 /* chooser-button-input-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185F3412204E1A5800B3B776 /* chooser-button-input-highlighted@2x.png */; };
 		185F3426204E1A5800B3B776 /* chooser-button-tab-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185F3413204E1A5800B3B776 /* chooser-button-tab-highlighted@2x.png */; };
 		185F3427204E1A5800B3B776 /* chooser-button-input@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185F3414204E1A5800B3B776 /* chooser-button-input@2x.png */; };
+		1875B1AF2063408F0038F120 /* RACList.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875B1AE2063408F0038F120 /* RACList.m */; };
+		1875B1B42063469B0038F120 /* CommonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875B1B32063469B0038F120 /* CommonData.m */; };
+		1875B1B7206349540038F120 /* CNBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875B1B6206349540038F120 /* CNBaseViewController.m */; };
+		1875B1C020639C2B0038F120 /* RACLogin.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875B1BE20639C2B0038F120 /* RACLogin.m */; };
+		1875B1C120639C2B0038F120 /* RACLogin.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1875B1BF20639C2B0038F120 /* RACLogin.xib */; };
+		1875B1C42063A9CA0038F120 /* FRP_combine.png in Resources */ = {isa = PBXBuildFile; fileRef = 1875B1C32063A9CA0038F120 /* FRP_combine.png */; };
+		1875B1C72063B2B20038F120 /* RACUnify.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875B1C62063B2B20038F120 /* RACUnify.m */; };
+		1875B1C92063B3670038F120 /* RACUnify.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1875B1C82063B3670038F120 /* RACUnify.xib */; };
 		18973F8B205A693500652FEA /* LMJBaseResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 18973F85205A693400652FEA /* LMJBaseResponse.m */; };
 		18973F8C205A693500652FEA /* LMJBaseRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18973F86205A693400652FEA /* LMJBaseRequest.m */; };
 		18973F8D205A693500652FEA /* LMJRequestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 18973F89205A693400652FEA /* LMJRequestManager.m */; };
 		18A5D11E205F5123002E5811 /* RACTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5D11D205F5123002E5811 /* RACTest.m */; };
 		18A5D121205F53E0002E5811 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A5D120205F53E0002E5811 /* SubView.m */; };
+		18B2CA7B206B839700AE0F4A /* NSObject+CaculatorMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B2CA7A206B839700AE0F4A /* NSObject+CaculatorMaker.m */; };
+		18B2CA7E206B845600AE0F4A /* CaculatorCP.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B2CA7D206B845600AE0F4A /* CaculatorCP.m */; };
 		18DBBBBD204F94950088A59E /* SocketTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18DBBBBC204F94950088A59E /* SocketTest.m */; };
+		DBC3AA513BCAD3D2F04CCC38 /* Pods_CNDemoOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4D509DE72EB0A423ADB931D /* Pods_CNDemoOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +98,9 @@
 
 /* Begin PBXFileReference section */
 		1357369D3EF1EE71480306FF /* Pods-CNDemoOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNDemoOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNDemoOC/Pods-CNDemoOC.debug.xcconfig"; sourceTree = "<group>"; };
+		180801E42061199600638F59 /* FlagItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlagItem.h; sourceTree = "<group>"; };
+		180801E52061199600638F59 /* FlagItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlagItem.m; sourceTree = "<group>"; };
+		180801E72061F31100638F59 /* flags.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = flags.plist; sourceTree = "<group>"; };
 		1817DFF02046A53C00A12164 /* CNDemoOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CNDemoOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1817DFF32046A53C00A12164 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1817DFF42046A53C00A12164 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -101,6 +119,12 @@
 		1817E0192046A53D00A12164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1817E0262046BCD100A12164 /* NetworkVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkVC.h; sourceTree = "<group>"; };
 		1817E0272046BCD100A12164 /* NetworkVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkVC.m; sourceTree = "<group>"; };
+		181D10A0206CCAB5005E4B85 /* CaculatorVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculatorVC.h; sourceTree = "<group>"; };
+		181D10A1206CCAB5005E4B85 /* CaculatorVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorVC.m; sourceTree = "<group>"; };
+		181D10A6206DCDFE005E4B85 /* CaculatorFP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculatorFP.h; sourceTree = "<group>"; };
+		181D10A7206DCDFE005E4B85 /* CaculatorFP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorFP.m; sourceTree = "<group>"; };
+		181D10B6206E2788005E4B85 /* RACCommonClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACCommonClass.h; sourceTree = "<group>"; };
+		181D10B7206E2788005E4B85 /* RACCommonClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACCommonClass.m; sourceTree = "<group>"; };
 		185F337C204CDCE000B3B776 /* CNAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNAnimation.h; sourceTree = "<group>"; };
 		185F337D204CDCE000B3B776 /* CNAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNAnimation.m; sourceTree = "<group>"; };
 		185F337F204CE6B700B3B776 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
@@ -159,6 +183,22 @@
 		185F3412204E1A5800B3B776 /* chooser-button-input-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-input-highlighted@2x.png"; sourceTree = "<group>"; };
 		185F3413204E1A5800B3B776 /* chooser-button-tab-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-tab-highlighted@2x.png"; sourceTree = "<group>"; };
 		185F3414204E1A5800B3B776 /* chooser-button-input@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "chooser-button-input@2x.png"; sourceTree = "<group>"; };
+		1875B1AD2063408F0038F120 /* RACList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACList.h; sourceTree = "<group>"; };
+		1875B1AE2063408F0038F120 /* RACList.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACList.m; sourceTree = "<group>"; };
+		1875B1B1206345C30038F120 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		1875B1B22063469B0038F120 /* CommonData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonData.h; sourceTree = "<group>"; };
+		1875B1B32063469B0038F120 /* CommonData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommonData.m; sourceTree = "<group>"; };
+		1875B1B5206349540038F120 /* CNBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNBaseViewController.h; sourceTree = "<group>"; };
+		1875B1B6206349540038F120 /* CNBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNBaseViewController.m; sourceTree = "<group>"; };
+		1875B1B820634B2C0038F120 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1875B1B920637F8A0038F120 /* RAC.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = RAC.md; sourceTree = "<group>"; };
+		1875B1BD20639C2B0038F120 /* RACLogin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACLogin.h; sourceTree = "<group>"; };
+		1875B1BE20639C2B0038F120 /* RACLogin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACLogin.m; sourceTree = "<group>"; };
+		1875B1BF20639C2B0038F120 /* RACLogin.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACLogin.xib; sourceTree = "<group>"; };
+		1875B1C32063A9CA0038F120 /* FRP_combine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = FRP_combine.png; sourceTree = "<group>"; };
+		1875B1C52063B2B20038F120 /* RACUnify.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RACUnify.h; sourceTree = "<group>"; };
+		1875B1C62063B2B20038F120 /* RACUnify.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACUnify.m; sourceTree = "<group>"; };
+		1875B1C82063B3670038F120 /* RACUnify.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RACUnify.xib; sourceTree = "<group>"; };
 		18973F85205A693400652FEA /* LMJBaseResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseResponse.m; sourceTree = "<group>"; };
 		18973F86205A693400652FEA /* LMJBaseRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMJBaseRequest.m; sourceTree = "<group>"; };
 		18973F87205A693400652FEA /* LMJRequestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMJRequestManager.h; sourceTree = "<group>"; };
@@ -169,12 +209,16 @@
 		18A5D11D205F5123002E5811 /* RACTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RACTest.m; sourceTree = "<group>"; };
 		18A5D11F205F53E0002E5811 /* SubView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SubView.h; sourceTree = "<group>"; };
 		18A5D120205F53E0002E5811 /* SubView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
+		18B2CA79206B839700AE0F4A /* NSObject+CaculatorMaker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+CaculatorMaker.h"; sourceTree = "<group>"; };
+		18B2CA7A206B839700AE0F4A /* NSObject+CaculatorMaker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+CaculatorMaker.m"; sourceTree = "<group>"; };
+		18B2CA7C206B845600AE0F4A /* CaculatorCP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CaculatorCP.h; sourceTree = "<group>"; };
+		18B2CA7D206B845600AE0F4A /* CaculatorCP.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CaculatorCP.m; sourceTree = "<group>"; };
 		18DBBBBB204F94950088A59E /* SocketTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SocketTest.h; sourceTree = "<group>"; };
 		18DBBBBC204F94950088A59E /* SocketTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SocketTest.m; sourceTree = "<group>"; };
 		32BF752FABD8892B049F69A9 /* Pods-CNDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNDemoOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-CNSummaryDemo/Pods-CNDemoOC.release.xcconfig"; sourceTree = "<group>"; };
 		710F1557094CBC27899A7EBE /* Pods-CNDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNDemoOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-CNDemoOC/Pods-CNDemoOC.release.xcconfig"; sourceTree = "<group>"; };
 		7550818267B64D350C0A697B /* Pods-CNDemoOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CNDemoOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CNSummaryDemo/Pods-CNDemoOC.debug.xcconfig"; sourceTree = "<group>"; };
-		F090D5B44E1D22CC6EB980C0 /* libPods-CNDemoOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CNDemoOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4D509DE72EB0A423ADB931D /* Pods_CNDemoOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CNDemoOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +226,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				120C8B9F4C328DA18F6479E6 /* libPods-CNDemoOC.a in Frameworks */,
+				DBC3AA513BCAD3D2F04CCC38 /* Pods_CNDemoOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -206,6 +250,7 @@
 		1817DFE72046A53C00A12164 = {
 			isa = PBXGroup;
 			children = (
+				1875B1B820634B2C0038F120 /* README.md */,
 				1817DFF22046A53C00A12164 /* CNDemoOC */,
 				1817E00B2046A53C00A12164 /* CNDemoOCTests */,
 				1817E0162046A53D00A12164 /* CNDemoOCUITests */,
@@ -233,9 +278,14 @@
 				1817E0252046BC9800A12164 /* Network */,
 				1817DFF32046A53C00A12164 /* AppDelegate.h */,
 				1817DFF42046A53C00A12164 /* AppDelegate.m */,
-				185F3383204CEAB000B3B776 /* PrefixHeader.pch */,
 				1817DFF62046A53C00A12164 /* ViewController.h */,
 				1817DFF72046A53C00A12164 /* ViewController.m */,
+				1875B1B1206345C30038F120 /* Header.h */,
+				1875B1B22063469B0038F120 /* CommonData.h */,
+				1875B1B32063469B0038F120 /* CommonData.m */,
+				1875B1B5206349540038F120 /* CNBaseViewController.h */,
+				1875B1B6206349540038F120 /* CNBaseViewController.m */,
+				185F3383204CEAB000B3B776 /* PrefixHeader.pch */,
 				1817DFF92046A53C00A12164 /* Main.storyboard */,
 				1817DFFC2046A53C00A12164 /* Assets.xcassets */,
 				1817DFFE2046A53C00A12164 /* LaunchScreen.storyboard */,
@@ -273,6 +323,50 @@
 				18DBBBBC204F94950088A59E /* SocketTest.m */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		181D10A5206DCDA8005E4B85 /* FunctionProgram */ = {
+			isa = PBXGroup;
+			children = (
+				181D10A6206DCDFE005E4B85 /* CaculatorFP.h */,
+				181D10A7206DCDFE005E4B85 /* CaculatorFP.m */,
+			);
+			path = FunctionProgram;
+			sourceTree = "<group>";
+		};
+		181D10B9206E3B1A005E4B85 /* RACMacro */ = {
+			isa = PBXGroup;
+			children = (
+				1875B1C52063B2B20038F120 /* RACUnify.h */,
+				1875B1C62063B2B20038F120 /* RACUnify.m */,
+				1875B1C82063B3670038F120 /* RACUnify.xib */,
+				1875B1BD20639C2B0038F120 /* RACLogin.h */,
+				1875B1BE20639C2B0038F120 /* RACLogin.m */,
+				1875B1BF20639C2B0038F120 /* RACLogin.xib */,
+			);
+			path = RACMacro;
+			sourceTree = "<group>";
+		};
+		181D10BA206E3BF6005E4B85 /* RACCommonClass */ = {
+			isa = PBXGroup;
+			children = (
+				181D10B6206E2788005E4B85 /* RACCommonClass.h */,
+				181D10B7206E2788005E4B85 /* RACCommonClass.m */,
+			);
+			path = RACCommonClass;
+			sourceTree = "<group>";
+		};
+		181D10BC206E3ECA005E4B85 /* RACCOmmonMethod */ = {
+			isa = PBXGroup;
+			children = (
+				18A5D11C205F5123002E5811 /* RACTest.h */,
+				18A5D11D205F5123002E5811 /* RACTest.m */,
+				18A5D11F205F53E0002E5811 /* SubView.h */,
+				18A5D120205F53E0002E5811 /* SubView.m */,
+				180801E42061199600638F59 /* FlagItem.h */,
+				180801E52061199600638F59 /* FlagItem.m */,
+			);
+			path = RACCOmmonMethod;
 			sourceTree = "<group>";
 		};
 		185F337B204CDB2D00B3B776 /* Animation */ = {
@@ -396,6 +490,15 @@
 			path = AnimationImage;
 			sourceTree = "<group>";
 		};
+		1875B1C22063A96E0038F120 /* RACResource */ = {
+			isa = PBXGroup;
+			children = (
+				1875B1C32063A9CA0038F120 /* FRP_combine.png */,
+				180801E72061F31100638F59 /* flags.plist */,
+			);
+			path = RACResource;
+			sourceTree = "<group>";
+		};
 		18973F7B205A687000652FEA /* LMJNetwork */ = {
 			isa = PBXGroup;
 			children = (
@@ -412,12 +515,30 @@
 		18A5D11B205F50FC002E5811 /* ReactiveCocoa */ = {
 			isa = PBXGroup;
 			children = (
-				18A5D11C205F5123002E5811 /* RACTest.h */,
-				18A5D11D205F5123002E5811 /* RACTest.m */,
-				18A5D11F205F53E0002E5811 /* SubView.h */,
-				18A5D120205F53E0002E5811 /* SubView.m */,
+				1875B1B920637F8A0038F120 /* RAC.md */,
+				1875B1AD2063408F0038F120 /* RACList.h */,
+				1875B1AE2063408F0038F120 /* RACList.m */,
+				181D10A0206CCAB5005E4B85 /* CaculatorVC.h */,
+				181D10A1206CCAB5005E4B85 /* CaculatorVC.m */,
+				181D10BA206E3BF6005E4B85 /* RACCommonClass */,
+				181D10BC206E3ECA005E4B85 /* RACCOmmonMethod */,
+				181D10B9206E3B1A005E4B85 /* RACMacro */,
+				181D10A5206DCDA8005E4B85 /* FunctionProgram */,
+				18B2CA72206B825100AE0F4A /* ChainProgram */,
+				1875B1C22063A96E0038F120 /* RACResource */,
 			);
 			path = ReactiveCocoa;
+			sourceTree = "<group>";
+		};
+		18B2CA72206B825100AE0F4A /* ChainProgram */ = {
+			isa = PBXGroup;
+			children = (
+				18B2CA79206B839700AE0F4A /* NSObject+CaculatorMaker.h */,
+				18B2CA7A206B839700AE0F4A /* NSObject+CaculatorMaker.m */,
+				18B2CA7C206B845600AE0F4A /* CaculatorCP.h */,
+				18B2CA7D206B845600AE0F4A /* CaculatorCP.m */,
+			);
+			path = ChainProgram;
 			sourceTree = "<group>";
 		};
 		267956EB9860D4596D1005EF /* Pods */ = {
@@ -434,7 +555,7 @@
 		C0CF0AB9C113695B995F46E9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F090D5B44E1D22CC6EB980C0 /* libPods-CNDemoOC.a */,
+				D4D509DE72EB0A423ADB931D /* Pods_CNDemoOC.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -558,11 +679,13 @@
 				185F3425204E1A5800B3B776 /* chooser-button-input-highlighted@2x.png in Resources */,
 				185F341B204E1A5800B3B776 /* Sparkle.png in Resources */,
 				185F3422204E1A5800B3B776 /* chooser-moment-icon-sleep-highlighted@2x.png in Resources */,
+				1875B1C42063A9CA0038F120 /* FRP_combine.png in Resources */,
 				185F3417204E1A5800B3B776 /* chooser-moment-button-highlighted@2x.png in Resources */,
 				185F3421204E1A5800B3B776 /* chooser-moment-icon-music@2x.png in Resources */,
 				185F3424204E1A5800B3B776 /* chooser-moment-button@2x.png in Resources */,
 				185F3427204E1A5800B3B776 /* chooser-button-input@2x.png in Resources */,
 				185F341C204E1A5800B3B776 /* Like-Blue@2x.png in Resources */,
+				1875B1C92063B3670038F120 /* RACUnify.xib in Resources */,
 				185F33FF204E1A2400B3B776 /* fold.caf in Resources */,
 				185F3418204E1A5800B3B776 /* chooser-moment-icon-sleep@2x.png in Resources */,
 				185F3419204E1A5800B3B776 /* chooser-moment-icon-place@2x.png in Resources */,
@@ -570,8 +693,10 @@
 				1817DFFB2046A53C00A12164 /* Main.storyboard in Resources */,
 				185F341E204E1A5800B3B776 /* Like@2x.png in Resources */,
 				185F341D204E1A5800B3B776 /* chooser-moment-icon-thought-highlighted@2x.png in Resources */,
+				1875B1C120639C2B0038F120 /* RACLogin.xib in Resources */,
 				185F3423204E1A5800B3B776 /* chooser-moment-icon-camera@2x.png in Resources */,
 				185F3416204E1A5800B3B776 /* chooser-moment-icon-place-highlighted@2x.png in Resources */,
+				180801E82061F31100638F59 /* flags.plist in Resources */,
 				185F341F204E1A5800B3B776 /* chooser-moment-icon-thought@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -601,17 +726,19 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-CNDemoOC/Pods-CNDemoOC-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
-				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveObjC/ReactiveObjC.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/YTKNetwork/YTKNetwork.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveObjC.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YTKNetwork.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -667,21 +794,32 @@
 				185F3394204D25C300B3B776 /* BaseAnimationController.m in Sources */,
 				18A5D11E205F5123002E5811 /* RACTest.m in Sources */,
 				1817DFF82046A53C00A12164 /* ViewController.m in Sources */,
+				181D10B8206E2788005E4B85 /* RACCommonClass.m in Sources */,
 				18A5D121205F53E0002E5811 /* SubView.m in Sources */,
 				185F33E1204D50DF00B3B776 /* AffineTransformController.m in Sources */,
+				1875B1B42063469B0038F120 /* CommonData.m in Sources */,
 				185F337E204CDCE000B3B776 /* CNAnimation.m in Sources */,
 				1817E0282046BCD100A12164 /* NetworkVC.m in Sources */,
+				18B2CA7B206B839700AE0F4A /* NSObject+CaculatorMaker.m in Sources */,
+				1875B1C72063B2B20038F120 /* RACUnify.m in Sources */,
+				1875B1B7206349540038F120 /* CNBaseViewController.m in Sources */,
 				185F33E4204D514400B3B776 /* ComprehensiveCaseController.m in Sources */,
 				185F33EC204E187400B3B776 /* DCPathButton.m in Sources */,
 				185F33F9204E189D00B3B776 /* MCFireworksView.m in Sources */,
 				1817E0032046A53C00A12164 /* main.m in Sources */,
+				181D10A3206CCAB5005E4B85 /* CaculatorVC.m in Sources */,
 				185F3391204D25A100B3B776 /* SWRevealViewController.m in Sources */,
 				1817DFF52046A53C00A12164 /* AppDelegate.m in Sources */,
 				185F33F2204E189100B3B776 /* DWBubbleMenuButton.m in Sources */,
+				181D10A8206DCDFE005E4B85 /* CaculatorFP.m in Sources */,
 				185F33DE204D44FD00B3B776 /* TransitionAnimationController.m in Sources */,
 				18DBBBBD204F94950088A59E /* SocketTest.m in Sources */,
+				180801E62061199600638F59 /* FlagItem.m in Sources */,
 				185F33ED204E187400B3B776 /* DCPathItemButton.m in Sources */,
+				1875B1AF2063408F0038F120 /* RACList.m in Sources */,
+				1875B1C020639C2B0038F120 /* RACLogin.m in Sources */,
 				185F33DB204D443800B3B776 /* GroupAnimationController.m in Sources */,
+				18B2CA7E206B845600AE0F4A /* CaculatorCP.m in Sources */,
 				185F33EE204E187400B3B776 /* DCPathCenterButton.m in Sources */,
 				185F33F8204E189D00B3B776 /* MCFireworksButton.m in Sources */,
 				185F3382204CEA2800B3B776 /* CallAnimationMethod.m in Sources */,
