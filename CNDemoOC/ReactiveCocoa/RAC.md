@@ -1,4 +1,6 @@
-https://www.jianshu.com/p/87ef6720a096
+[ReactiveCocoa学习篇——【上】](https://www.jianshu.com/p/53eec1a2ad93)
+[ReactiveCocoa学习篇——【下】](https://www.jianshu.com/p/05544e4ac972)
+[https://www.jianshu.com/p/87ef6720a096](https://www.jianshu.com/p/87ef6720a096)
 
 Native app有很大一部分的时间是在等待事件发生，然后响应事件，比如等待网络请求完成，等待用户的操作，等待某些状态值的改变等等，等这些事件发生后，再做进一步处理。 但是这些等待和响应，并没有一个统一的处理方式。Delegate, Notification, Block, KVO, 常常会不知道该用哪个最合适。有时需要chain或者compose某几个事件，就需要多个状态变量，而状态变量一多，复杂度也就上来了。为了解决这些问题，Github的工程师们开发了ReactiveCocoa。
 

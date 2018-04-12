@@ -8,7 +8,7 @@
 
 #import "CNBaseViewController.h"
 
-@interface RACUnify : CNBaseViewController
+@interface  : CNBaseViewController
 @property (weak, nonatomic) IBOutlet UITextField *textfield;
 @property (weak, nonatomic) IBOutlet UILabel *label;
 

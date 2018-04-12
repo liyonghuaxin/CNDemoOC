@@ -9,10 +9,11 @@
 #import "RACList.h"
 #import <Masonry/Masonry.h>
 #import "RACLogin.h"
-#import "RACUnify.h"
+#import "RACMacro.h"
 #import "CaculatorVC.h"
 #import "RACCommonClass.h"
-#import "RACTest.h"
+#import "RACUsage.h"
+#import "RACOperationVC.h"
 
 @interface RACList ()<UITableViewDelegate, UITableViewDataSource>{
     NSArray *dataArray;
@@ -25,7 +26,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    dataArray = @[@[@"常见类", @"常见方法", @"常见宏",], @[@"链式、函数编程"], @[ @"水龙头合并：combineLatest:reduce:"]];
+    dataArray = @[@[@"常见类", @"常见用法", @"常见宏", @"常见操作", @"MVVM"], @[@"链式、函数编程"], @[ @"水龙头合并：combineLatest:reduce:"]];
     
     UITableView *tableview = [[UITableView alloc] init];
     [self.view addSubview:tableview];
@@ -47,13 +48,18 @@
                 break;
             }
             case 1:{
-                RACTest *test = [[RACTest alloc] init];
+                RACUsage *test = [[RACUsage alloc] init];
                 [self.navigationController pushViewController:test animated:YES];
                 break;
             }
             case 2:{
-                RACUnify *unify = [[RACUnify alloc] init];
+                RACMacro *unify = [[RACMacro alloc] init];
                 [self.navigationController pushViewController:unify animated:YES];
+                break;
+            }
+            case 3:{
+                RACOperationVC *operation = [[RACOperationVC alloc] init];
+                [self.navigationController pushViewController:operation animated:YES];
                 break;
             }
             default:

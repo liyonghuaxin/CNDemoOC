@@ -11,6 +11,8 @@
 #import "CNAnimation.h"
 #import "SocketTest.h"
 #import "RACList.h"
+#import "MVVMController.h"
+#import "ThirdVC.h"
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>{
     NSArray *dataArray;
@@ -23,7 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    dataArray = @[@"网络", @"动画", @"Socket编程", @"ReactivaCocoa"];
+    dataArray = @[@"网络", @"动画", @"Socket编程", @"ReactivaCocoa", @"MVVM"];
 }
 
 #pragma mark UITableViewDataSource
@@ -47,6 +49,13 @@
         case 3:{
             RACList *rac = [[RACList alloc] init];
             [self.navigationController pushViewController:rac animated:YES];
+            break;
+        }
+        case 4:{
+//            MVVMController *mvvm = [[MVVMController alloc] init];
+//            [self.navigationController pushViewController:mvvm animated:YES];
+            ThirdVC *mvvm = [[ThirdVC alloc] init];
+            [self.navigationController pushViewController:mvvm animated:YES];
             break;
         }
         default:

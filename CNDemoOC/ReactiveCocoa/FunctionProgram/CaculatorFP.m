@@ -9,7 +9,6 @@
 #import "CaculatorFP.h"
 
 @implementation CaculatorFP
-
 -(CaculatorFP *)caculator:(float (^)(float))block{
     _result = block(_result);
     return self;
